@@ -12,7 +12,11 @@
     width: 100%;
     
     font-size: 16px;
-    border: 2px solid #ffffff;
+    
+    /* DEVELOPING */
+    /* border: 2px solid #ffffff; */
+    border: 2px solid #eee;
+    
     display: block;
 
     padding: 5px;
@@ -30,19 +34,16 @@
 }
 
 
-.special {
-    border: 1px solid red;
-}
 
 
 /* Key Action CSS */
-.note span.header1 {
+.note span[data-type="header1"] {
     font-size: 28px;
 }
-.note span.header2 {
+.note span[data-type="header2"] {
     font-size: 24px;
 }
-.note span.header3 {
+.note span[data-type="header3"] {
     font-size: 20px;
 }
 
