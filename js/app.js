@@ -1,0 +1,1 @@
+new Notebook('note-book');
